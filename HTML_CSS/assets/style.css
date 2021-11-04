@@ -29,14 +29,14 @@ address {
 #doigt a {
     padding: 10px 10px 10px 77px;
     /* pour les vieux navigateurs */
-    background:#FAC27E url(assets/img/main.png) no-repeat 5px 10px; 
+    background:#FAC27E url('../assets/img/main.png') no-repeat 5px 10px; 
     /* pour les navigateurs récents */
-    background: rgba(255,140,0,0.4) url(assets/img/main.png) no-repeat 5px 10px;
+    background: rgba(255,140,0,0.4) url('../assets/img/main.png') no-repeat 5px 10px;
     border: 1px solid #FF8C00;
     border-radius: 5px;
     }
     p#doigt a:hover, p#doigt a:focus {
-    background-color:#ff8c00; /* pour les vieux navigateurs */
+    background-color:#e6e2de; /* pour les vieux navigateurs */
     color: black;
     animation-name: doigt; /* nom de l'animation */
     animation-duration: 4s; /* temps de l'animation (4s) */
@@ -45,7 +45,7 @@ address {
     }
     /* deuxième étape */
     @keyframes doigt {
-    0% {background:rgba(255,140,0,0.4) url(assets/img/main.png) no-repeat 5px 10px;}
-    50% {background:rgba(255,140,0,1) url(assets/img/main.png) no-repeat 50px 10px;}
-    100% {background:rgba(255,140,0,0.4) url(assets/img/main.png) no-repeat 5px 10px;}
+    0% {background:rgba(255,140,0,0.4) url('../assets/img/main.png') no-repeat 5px 10px;}
+    50% {background:rgba(255,140,0,1) url('../assets/img/main.png') no-repeat 50px 10px;}
+    100% {background:rgba(255,140,0,0.4) url('../assets/img/main.png') no-repeat 5px 10px;}
     }
